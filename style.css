@@ -48,7 +48,7 @@ p {
 .summary-box p,
 .tech-stack p,
 .project-text,
-.skills p {
+.skills dd {
     font-family: 'EB Garamond';
 }
 
@@ -176,26 +176,28 @@ header h3 {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.skills h4 {
+.skills dt {
     color: #ffffff;
     font-weight: 700;
     font-size: 24px;
     line-height: 32px;
+    display: inline-block;
+    padding: 2px;
 }
 
-.code-skills h4 {
+.code-skills {
     background-color: #EB5577;
 }
 
-.toolbox-skills h4 {
+.toolbox-skills {
     background-color: #2483E0;
 }
 
-.more-skills h4 {
+.more-skills {
     background-color: #0B24F5;
 }
 
-.upcoming-skills h4 {
+.upcoming-skills {
     background-color: #6DB486;
 }
 
