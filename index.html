@@ -4,11 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Satoshi|EB+Garamond&display=swap">
-    <meta property ="og:title" content="Camillas Porfolio"/>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel=“stylesheet” href=“https://fonts.googleapis.com/css2?family=EB+Garamond”>
+    <meta property ="og:title" content="Camilla's porfolio"/>
     <meta property ="og:description" content="The portfolio page of Camilla Cronqvist, frontend developer"/>
     <meta property ="og:image" content="https://placehold.co/400"/>
 
@@ -20,7 +19,7 @@
     <meta property="og:video:height" content="360"/>
     -->
 
-    <title>Camillas Portfolio</title>
+    <title>Camilla's portfolio</title>
 
 </head>
 <main>
@@ -30,19 +29,21 @@
                 <img class="personal-photo" title="placeholder" src="https://images.pexels.com/photos/4974915/pexels-photo-4974915.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Photo of Camilla"/>
             </div>
 
-            <div class="summary-box">
+            <div class="main-info-header">
                 <h1>Camilla Cronqvist</h1>
                 <h3>Frontend developer</h3>
+            </div>
+            <div class="summary-box">
                 <p>Camilla is an exceptional developer known for her innovative solutions and exceptional coding abilities. She creates user-friendly applications and solves complex issues with ease. Her drive for excellence makes her a valuable asset to any project and a standout in the technology field.</p>
             </div>
 
             <div class="icons-box-header">
-                <a class="fa fa-linkedin-square" href="https://www.linkedin.com/in/camilla-cronqvist/" target="_blank"></a>
-                <a class="fa fa-envelope" href="mailto:camillacronqvist@hotmail.com" target="_blank"></a>
-                <a class="fa fa-github" href="https://github.com/camcron"></a>
+                <a href="https://www.linkedin.com/in/camilla-cronqvist/" target="_blank"><img src="./assets/linkedin.svg" alt="Linkedin Icon"></a>
+                <a href="https://github.com/camcron" target="_blank"><img src="./assets/github.svg" alt="GitHub Icon"></a>
             </div>
 
             <div class="scroll">
+                <img src="./assets/down-arrow.svg" alt="Down arrow icon">
                 <p>Let's scroll</p>
             </div>
         </header>
@@ -55,46 +56,79 @@
         <section class="projects">
             <h2>Featured Projects</h2>
 
-            <article class="project">
+            <article class="project-chat">
                 <img src="https://images.pexels.com/photos/8566472/pexels-photo-8566472.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
                 <h3>Chatbot built in JavaScript</h3>
                 <p class="project-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae unde quos, doloribus cum suscipit quia illum! Magnam iure quia assumenda officia expedita voluptate culpa at, fugit obcaecati tenetur. Voluptatem, soluta?</p>
-                <div class="project-codelang">
+                <div class="code-tags">
                     <p>HTML5</p>
                     <p>CSS3</p>
                     <p>JavasScript</p>
                 </div>
-                <button><a class="fa fa-github" href="https://github.com/camcron"></a>
-                    View the code</button>
-                <button>Live demo</button>
+
+                <a href="https://github.com/camcron/project-chatbot">
+                    <button>
+                        <img src="./assets/github-black.svg" alt="GitHub icon"> 
+                        View the code
+                    </button>
+                </a>
+
+                <a href="https://archive-chatbot.netlify.app/">
+                    <button class="live-button">
+                        <img src="./assets/Live Demo.svg" alt="Web icon"> 
+                        Live demo
+                    </button>
+                </a>
             </article>
 
-            <article class="project">
+            <article class="project-guess">
                 <img src="https://images.pexels.com/photos/1670977/pexels-photo-1670977.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
                 <h3>"Guess where"-game</h3>
                 <p class="project-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae unde quos, doloribus cum suscipit quia illum! Magnam iure quia assumenda officia expedita voluptate culpa at, fugit obcaecati tenetur. Voluptatem, soluta?</p>
-                <div class="project-codelang">
+                <div class="code-tags">
                     <p>HTML5</p>
                     <p>CSS3</p>
                     <p>JavasScript</p>
                 </div>
-                <button><a class="fa fa-github" href="https://github.com/camcron"></a>
-                    View the code</button>
-                <button>Live demo</button>
+
+                <a href="https://github.com/camcron/project-guess-who">
+                    <button>
+                        <img src="./assets/github-black.svg" alt="GitHub icon"> 
+                        View the code
+                    </button>
+                </a>
+
+                <a href="https://guess-where.netlify.app/">
+                    <button class="live-button">
+                        <img src="./assets/Live Demo.svg" alt="Web icon"> 
+                        Live demo
+                    </button>
+                </a>
             </article>
 
-            <article class="project">
+            <article class="project-weather">
                 <img src="https://images.pexels.com/photos/268941/pexels-photo-268941.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
                 <h3>Weather app</h3>
                 <p class="project-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae unde quos, doloribus cum suscipit quia illum! Magnam iure quia assumenda officia expedita voluptate culpa at, fugit obcaecati tenetur. Voluptatem, soluta?</p>
-                <div class="project-codelang">
+                <div class="code-tags">
                     <p>HTML5</p>
                     <p>CSS3</p>
                     <p>JavasScript</p>
                 </div>
-                <button><a class="fa fa-github" href="https://github.com/camcron"></a>
-                    View the code</button>
-                <button>Live demo</button>
+
+                <a href="https://github.com/camcron/project-weather-app">
+                    <button>
+                        <img src="./assets/github-black.svg" alt="GitHub icon"> 
+                        View the code
+                    </button>
+                </a>
+
+                <a href="https://colourful-weather.netlify.app/">
+                    <button class="live-button">
+                        <img src="./assets/Live Demo.svg" alt="Web icon"> 
+                        Live demo
+                    </button>
+                </a>
             </article>
         </section>
 
@@ -137,16 +171,26 @@
         <footer class="footer">
             <h2>Let's talk!</h2>
             <img class="personal-photo" title="placeholder" src="https://images.pexels.com/photos/4974915/pexels-photo-4974915.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Photo of Camilla"/>
-            <h3>Camilla Cronqvist</h3>
-            <h4>Frontend developer</h4>
-            <p>Phone number xxxxxxxx</p>
-            <p>Email adress xxxxx@xxx.com</p>
+         
+            <div class="main-info-header">
+                <h3>Camilla Cronqvist</h3>
+                <h4>Frontend developer</h4>
+            </div>
+
+            <a href="mailto:camillacronqvist@hotmail.com" target="_blank">
+                <p>camillacronqvist@hotmail.com</p>
+            </a>
+
             <div class="icons-box-footer">
-                <a class="fa fa-linkedin-square" href="https://www.linkedin.com/in/camilla-cronqvist/" target="_blank"></a>
-                <a class="fa fa-envelope" href="mailto:camillacronqvist@hotmail.com" target="_blank"></a>
-                <a class="fa fa-github" href="https://github.com/camcron"></a>
+                <a href="https://www.linkedin.com/in/camilla-cronqvist/" target="_blank"><img src="./assets/linkedin.svg" alt="Linkedin Icon"></a>
+                <a href="https://github.com/camcron" target="_blank"><img src="./assets/github.svg" alt="GitHub Icon"></a>
             </div>
         </footer>
     </body>
 </main>
-</html>
+</html> 
+   
+                <!--
+                <a class="fa fa-envelope" href="mailto:camillacronqvist@hotmail.com" target="_blank"></a>
+                -->
+    

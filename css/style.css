@@ -1,0 +1,311 @@
+@import url('../css/satoshi.css');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond');
+
+@font-face {
+    font-family: 'Satoshi-Variable';
+    src: url('../fonts/fonts/Satoshi-Variable.woff2') format('woff2'),
+         url('../fonts/fonts/Satoshi-Variable.woff') format('woff'),
+         url('../fonts/fonts/Satoshi-Variable.ttf') format('truetype');
+         font-weight: 300 900;
+         font-display: swap;
+         font-style: normal;
+  }
+
+* {
+    box-sizing: border-box;
+  }
+
+body {
+    display: flex;
+    background-color: #ffffff;
+    margin: 0;
+    color: #000000;
+    font-family: 'Satoshi-Variable', sans-serif;
+    font-style: normal;
+}
+
+h2 {
+    color: #0B24F5;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 80px;
+    margin: 0;
+}
+
+h3 {
+    font-weight: 900;
+    font-size: 32px;
+}
+
+p {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 29px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.summary-box p,
+.tech-stack p,
+.project-text,
+.skills dd,
+li {
+    font-family: 'EB Garamond', serif;
+}
+
+section {
+    padding: 80px 24px;
+}
+
+article {
+    margin: 40px 0;
+}
+
+img {
+    width: 327px;
+    height: 280px;
+}
+
+/*ICONS*/
+.icons-box-footer {
+    display: flex;
+    flex-direction: row;
+    height: 32px;
+    align-self: center;
+}
+
+.icons-box-header img,
+.icons-box-footer img {
+    width: 32px;
+    height: 32px;
+    margin: 20px 0;
+}
+
+.icons-box-header img:hover {
+    fill: black;
+}
+
+
+/*HEADER*/
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 55px 24px;
+}
+
+.photo-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.personal-photo {
+    width: 164px;
+    height: 164px;
+    border-radius: 50%;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.main-info-header {
+    height: 113px;
+    width: 303px;
+}
+
+h1 {
+    color: #0B24F5;
+    font-weight: 700;
+    font-size: 28px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin: 0;
+}
+
+.main-info-header h3 {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin: 0;
+}
+
+.scroll {
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+}
+
+.scroll p {
+    color: #0B24F5;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 22px;
+    text-decoration: underline 3px;
+    text-underline-offset: 5px; /*This might not work for all browser because new feature*/
+}
+
+.scroll img {
+    width: 19px;
+    height: 30px;
+    margin-top: 40px;
+}
+
+/*TECH STACK SECTION*/
+.tech-stack {
+    background-color: #EDFFFF;
+    height: 530px;
+}
+
+.tech-stack h2 {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.js-techstack {
+    background-color: #EB5577;
+    color: #ffffff;
+  }
+  
+.react-techstack {
+    background-color: #0B24F5;
+    color: #ffffff;
+  }
+  
+.mob-techstack {
+    background-color: #2483E0;
+    color: #ffffff;
+  }
+
+
+/*PROJECTS SECTIONS*/
+.code-tags {
+    display: flex;
+}
+
+.code-tags p {
+    color: #ffffff;
+    background-color: #000000;
+    margin: 4px;
+    padding: 2px 6px;
+    font-size: 16px;
+}
+
+/*SKILLS SECTION*/
+.skills {
+    background-color: #FDF2E4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+.skills h3 {
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    display: inline-block;
+    padding: 2px;
+    margin-top: 66px;
+}
+
+.code-skills {
+    background-color: #EB5577;
+}
+
+.toolbox-skills {
+    background-color: #2483E0;
+}
+
+.more-skills {
+    background-color: #0B24F5;
+}
+
+.upcoming-skills {
+    background-color: #6DB486;
+}
+
+
+/*BUTTONS*/
+button {
+    display: flex;
+    border-radius: 40px;
+    border: none;
+    margin-top: 24px;
+    font-size: 20px;
+    color: #333333;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 200px;
+    height: 48px;
+}
+
+.live-button {
+    width: 164px;
+    height: 48px;
+    margin-bottom: 80px;
+}
+
+button img {
+    width: 48px;
+    height: 48px;
+}
+
+button:nth-child(odd):hover {
+    background-color: #EB5577;
+}
+
+button:nth-child(even):hover {
+    background-color:#0B24F5;
+}
+
+/*FOOTER*/
+footer {
+    display: flex;
+    flex-direction: column;
+    padding: 55px 24px;
+}
+
+.main-info-footer {
+    height: 113px;
+    width: 303px;
+}
+
+footer h2 {
+    font-size: 58px;
+    color: #EB5577;
+    text-align: center;
+    margin-bottom: 66px;
+}
+
+footer h3 {
+    color: #0B24F5;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 38px;
+    margin: 29px 0 0 0;
+}
+
+footer h4 {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 43px;
+    margin: 0;
+}
+
+footer p {
+    font-weight: bold;
+    color: #000000;
+}
