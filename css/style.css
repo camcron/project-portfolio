@@ -303,7 +303,6 @@ article:last-child {
     font-size: 22px;
     line-height: 29px;
     margin-bottom: 24px;
-    max-width: 300px;
 }
 
  .code-tags {
@@ -825,6 +824,10 @@ footer a {
     .project-info {
         flex-direction: column;
         margin-left: 24px;
+    }
+
+    .project-info p {
+        max-width: none;
     }
     /*PROJECTS SECTION DESKTOP END*/
 
