@@ -426,7 +426,7 @@ h1 {
      .side-box-image {
          grid-area: 1 / 1 / 2 / 9;
          width: auto;
-         background-image: url('../assets/pexels-photo-2414036.jpeg');
+         background-image: url('../assets/pexels-matheus-viana-2414036.jpg');
          background-size: cover;
          background-position: 75%;
          height: 412px;
@@ -618,7 +618,7 @@ h1 {
          grid-area: 1 / 7 / 6 / 13;
          width: 100%;
          align-self: stretch;
-         background-image: url('https://images.pexels.com/photos/2414036/pexels-photo-2414036.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+         background-image: url('../assets/pexels-matheus-viana-2414036.jpg');
          background-size: cover;
          background-position: center;
          margin: 0;
