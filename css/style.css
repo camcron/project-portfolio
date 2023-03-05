@@ -47,20 +47,63 @@
      object-fit: cover;
 }
 /*ICONS*/
- .icons-box-footer {
-     display: flex;
-     flex-direction: row;
-     height: 32px;
-     align-self: center;
-}
- .icons-box-header img, .icons-box-footer img {
+ .icons-box-header svg, .icons-box-footer svg {
      width: 32px;
      height: 32px;
      margin: 20px 0;
 }
- .icons-box-header img:hover {
+ .icons-box-header svg:hover {
      fill: black;
 }
+
+.icons-box-footer {
+    display: flex;
+    flex-direction: row;
+    height: 32px;
+    align-self: center;
+}
+
+/*BUTTONS (that are links)*/
+.code-button,
+.live-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #232c39;
+    background-color:  #F5F5F5;
+    border-radius: 40px;
+    border: none;
+    margin-top: 24px;
+    margin-right: 24px;
+    font-size: 18px;
+    padding: 0;
+    width: 200px;
+    height: 48px;
+  }
+
+.code-button img,
+.live-button img {
+    width: 48px;
+    height: 48px;
+}
+
+.live-button {
+    width: 164px;
+    height: 48px;
+    margin-bottom: 80px;
+}
+  
+  .code-button:hover {
+    background-color: #2c3847;
+    color: #FFFFFF;
+  }
+
+  .live-button:hover {
+    background-color:#615d57;
+    color: #FFFFFF;
+}
+
 /*HEADER MOBILE START*/
  header {
     display: grid;
@@ -278,50 +321,6 @@ h1 {
      margin-bottom: 130px;
 }
 /*SKILLS SECTION MOBILE END*/
-
-/*BUTTONS (that are links)*/
-.code-button,
-.live-button {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-decoration: none;
-    color: #232c39;
-    background-color:  #F5F5F5;
-    border-radius: 40px;
-    border: none;
-    margin-top: 24px;
-    margin-right: 24px;
-    font-size: 18px;
-    padding: 0;
-    width: 200px;
-    height: 48px;
-  }
-
-.code-button img,
-.live-button img {
-    width: 48px;
-    height: 48px;
-}
-
-.live-button {
-    width: 164px;
-    height: 48px;
-    margin-bottom: 80px;
-}
-  
-  .code-button:hover {
-    background-color: #2c3847;
-    color: #FFFFFF;
-  }
-
-  .live-button:hover {
-    background-color:#615d57;
-    color: #FFFFFF;
-}
-  
-  .code-button1 a svg {
-  }
 
 /*FOOTER MOBILE START*/
  footer {
