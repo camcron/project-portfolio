@@ -278,42 +278,10 @@ h1 {
      margin-bottom: 130px;
 }
 /*SKILLS SECTION MOBILE END*/
-/*BUTTONS*/
- button {
-     display: flex;
-     border-radius: 40px;
-     border: none;
-     margin-top: 24px;
-     font-size: 18px;
-     color: #333333;
-     flex-direction: row;
-     align-items: center;
-     justify-content: center;
-     width: 200px;
-     height: 48px;
-     padding: 0;
-}
- .live-button {
-     width: 164px;
-     height: 48px;
-     margin-bottom: 80px;
-}
- button img {
-     width: 48px;
-     height: 48px;
-}
- .code-button:hover {
-     background-color: #8da395;
-     color: white;
-}
- .live-button:hover {
-     background-color:#615d57;
-     color: #FFFFFF;
-}
-/*TEST*/
 
-.code-button1,
-.live-button1 {
+/*BUTTONS (that are links)*/
+.code-button,
+.live-button {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -325,15 +293,29 @@ h1 {
     margin-top: 24px;
     margin-right: 24px;
     font-size: 18px;
-    padding: 1px 20px;
+    padding: 0;
+    width: 200px;
+    height: 48px;
   }
+
+.code-button img,
+.live-button img {
+    width: 48px;
+    height: 48px;
+}
+
+.live-button {
+    width: 164px;
+    height: 48px;
+    margin-bottom: 80px;
+}
   
-  .code-button1:hover {
+  .code-button:hover {
     background-color: #2c3847;
     color: #FFFFFF;
   }
 
-  .live-button1:hover {
+  .live-button:hover {
     background-color:#615d57;
     color: #FFFFFF;
 }
