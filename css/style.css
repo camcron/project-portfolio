@@ -224,16 +224,29 @@ h1 {
 }
 /*TECH STACK SECTION MOBILE END*/
 /*PROJECTS SECTIONS MOBILE START*/
+.projects {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    grid-template-rows: auto;
+    justify-content: center;
+    justify-items: center;
+    align-items: flex-start; 
+}
  .projects h2 {
+    grid-column: 2 / span 2;
      font-style: normal;
      font-weight: 700;
      font-size: 66px;
      line-height: 80px;
      margin-bottom: 64px;
+
 }
  article {
      display: flex;
      flex-direction: column;
+     grid-column: 2 / span 2;
+     justify-content: center;
+
 }
  article:last-child {
      margin-bottom: 200px;
@@ -253,6 +266,7 @@ h1 {
      font-size: 22px;
      line-height: 29px;
      margin-bottom: 24px;
+     max-width: 300px;
 }
  .code-tags {
      display: flex;
@@ -330,6 +344,9 @@ h1 {
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: 134px 1fr 230px 50px;
     padding: 0 24px;
+    justify-content: center;
+    justify-items: center;
+    align-items: flex-start; 
 }
  footer h2 {
     grid-column: span 4;
@@ -350,6 +367,7 @@ h1 {
     display: flex;
     flex-direction: column;
     margin-top: 70px;
+    
 }
  .main-info-footer {
     margin: 0;
@@ -695,7 +713,7 @@ h1 {
          grid-column: 2 / 12;
          margin: 0;
          padding: 0;
-         display: flex; /* add display:flex */
+         display: flex;
         }
 
      article:last-child {
