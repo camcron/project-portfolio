@@ -334,7 +334,7 @@ article:last-child {
     font-size: 16px;
 }
 
-.project-designhandoff img, .project-moviereleases img {
+.project-designhandoff img, .project-moviereleases img, .project-express-api img {
     object-position: left;
 }
 /*PROJECTS SECTIONS MOBILE END*/
