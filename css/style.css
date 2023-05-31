@@ -134,7 +134,7 @@ header {
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: 1fr 1fr 30px 225px;
     padding: 55px 24px;
-    height: 920px;
+    height: 100vh;
 }
 
 .side-box-image p {
